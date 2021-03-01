@@ -1,29 +1,29 @@
-# import sys
-# import datetime
+import sys
+import datetime
 
-# for line in sys.stdin:
+for line in sys.stdin:
 
-#     data = line.strip().split("\t")
+    data = line.strip().split("\t")
 
-#     if len(data) == 4:
-#         store, item, cost, payment = data
-#         dt= datetime.datetime.today()
+    if len(data) == 4:
+        store, item, cost, payment = data
+        dt= datetime.datetime.today()
        
-#         print ("{0}\t{1}\t{2}".format(dt,item,cost))
+        print ("{0}\t{1}\t{2}".format(dt,item,cost))
 
      
    
-# from datetime import datetime, timedelta 
+from datetime import datetime, timedelta 
 
-# tday=datetime.today()
-# tdelta=timedelta(seconds=60)
-# tdeltay=timedelta(weeks=104)
-# print(tday-tdelta+tdeltay)
+tday=datetime.today()
+tdelta=timedelta(seconds=60)
+tdeltay=timedelta(weeks=104)
+print(tday-tdelta+tdeltay)
 
 
-# from datetime import timedelta 
-# d = timedelta(days=100, hours=10, minutes=13)
-# print(d)
+from datetime import timedelta 
+d = timedelta(days=100, hours=10, minutes=13)
+print(d)
 
 
 
